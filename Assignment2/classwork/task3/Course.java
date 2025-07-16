@@ -1,0 +1,48 @@
+package Assignment2.classwork.task3;
+
+public class Course {
+    String courseName;
+    String courseCode;
+    int courseCredit;
+    
+    public void updateDetails(String courseName, String courseCode, int courseCredit) {
+        this.courseName = courseName;
+        this.courseCode = courseCode;
+        this.courseCredit = courseCredit;
+
+    }
+    public void displayCourse() {
+        System.out.println("Course Name: " + courseName);
+        System.out.println("Course Code: " + courseCode);
+        System.out.println("Course Credit: " + courseCredit);
+    }
+}
+
+// public class Tester3{
+//   public static void main(String[] args) {
+//     Course c1 = new Course();
+//     Course c2 = new Course();  
+//     c1.updateDetails("Programming Language I","CSE110", 3);
+//     System.out.println("========== 1 ==========");
+//     c1.displayCourse(); 
+//     c2.updateDetails("Data Structures","CSE220", 3);
+//     System.out.println("========== 2 ==========");
+//     c2.displayCourse();  
+//     c1.updateDetails("Programming Language II","CSE111", 3);
+//     System.out.println("========== 3 ==========");
+//     c1.displayCourse();
+//   }
+// }
+
+// ========== 1 ==========
+// Course Name: Programming Language I
+// Course Code: CSE110
+// Course Credit: 3
+// ========== 2 ==========
+// Course Name: Data Structures
+// Course Code: CSE220
+// Course Credit: 3
+// ========== 3 ==========
+// Course Name: Programming Language II
+// Course Code: CSE111
+// Course Credit: 3
